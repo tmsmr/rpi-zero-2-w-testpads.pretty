@@ -33,4 +33,5 @@
 |WL_ON     |Wireless LAN power status    |27.7              |19.2              |
 
 ---
-*Based on datasheets from https://www.raspberrypi.com/documentation/computers/raspberry-pi.html*
+- *Based on datasheets from https://www.raspberrypi.com/documentation/computers/raspberry-pi.html*
+- *Test pad sizes measured manually*
