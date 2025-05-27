@@ -1,11 +1,11 @@
 # rpi-zero-2-w-testpads.pretty
-*KiCad footprint for the Raspberry Pi Zero 2 W's test pads...*
+*KiCad footprint of Raspberry Pi Zero 2 W's test pads...*
 
 ## Screenshots
 ![Description 2](docs/footprint.png)
 ![Description 1](docs/3d_b_f.png)
 
-## Test pad positions (Origin bottom left, PCB flipped horizontally)
+## Test pad positions (Origin bottom left, flipped horizontally)
 |Label     |Function                     |X (mm from origin)|Y (mm from origin)|
 |----------|-----------------------------|------------------|------------------|
 |STATUS_LED|Power state of LED (LOW = ON)|5.15              |8.8               |
@@ -33,4 +33,4 @@
 |WL_ON     |Wireless LAN power status    |27.7              |19.2              |
 
 ---
-*Based on Datasheets from https://www.raspberrypi.com/documentation/computers/raspberry-pi.html*
+*Based on datasheets from https://www.raspberrypi.com/documentation/computers/raspberry-pi.html*
