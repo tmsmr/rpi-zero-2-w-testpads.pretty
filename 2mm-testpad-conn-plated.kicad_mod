@@ -4,11 +4,10 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -14 8 0)
+		(at 0 -2.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
-		(uuid "5c0e174f-17d2-4a99-87d7-c121d4641470")
+		(uuid "fdead1b1-5c64-4cf7-9794-6be49c88eda5")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +16,10 @@
 		)
 	)
 	(property "Value" "2mm-testpad-conn-plated"
-		(at -14 9.5 0)
+		(at 0 2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "0da10732-6094-42f6-a64c-086b519e3986")
+		(uuid "e7a5ab2d-ed6c-46f0-956c-d29796bccd93")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "36a70933-5447-41c3-9bea-a96cdfb7c341")
+		(uuid "35893bb0-3e50-4b1f-b5be-d99857418a03")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "86112575-a911-4263-b866-9dc1c872109a")
+		(uuid "7b36bee3-0b89-4d0e-a8b4-fa8f1619b393")
 		(effects
 			(font
 				(size 1 1)
@@ -56,13 +54,47 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "18b48256-9644-4a30-b270-d9a28c3e9290")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e7f2ee67-1e85-4a1e-a1ec-2ce6bac20097")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "984db15c-0476-459a-bb83-d87796417702")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2 2)
 		(drill 1.6)
-		(layers "*.Cu" "*.Paste" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b7b63b4f-b37f-46f5-962d-6daace85c5cd")
+		(uuid "4be979d5-359e-4dfe-b728-aeb367a561c6")
 	)
 	(embedded_fonts no)
 )
